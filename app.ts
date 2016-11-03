@@ -1,5 +1,6 @@
 function Calculate() {
-  let year = document.getElementById("leapyear").value;
+  let year = document.getElementById("leapyear").value
+
   document.getElementById("answer").innerText = LeapYearFinder(year);
 }
 
